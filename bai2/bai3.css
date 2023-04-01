@@ -1,0 +1,27 @@
+body{
+  background-color:#519D90;
+  
+}
+
+
+/* Header **/
+header{
+
+  padding: 2px 30px 2px 1px;
+    margin: -8px;
+    background-color:#82363A;
+    border-bottom-style: solid;
+    border-color: #bdbcb0
+
+ 
+}
+
+footer{
+
+    
+                padding:20px;
+    margin-top:20px;
+    color:#ffffff;
+    background-color:#82363A;
+    text-align: center;
+   

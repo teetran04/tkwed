@@ -1,0 +1,129 @@
+body{
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
+  padding:0;
+  margin:0;
+  background-color:#519D90;
+}
+
+/* Global */
+.container{
+    margin-left: 90px;
+}
+
+ul{
+    margin-top: -10px;
+}
+
+.button_1{
+    height: 35px;
+    width: 90px;
+    background-color: #c76f46b6;
+    color: #080101;
+}
+
+.dark{
+    background-color: #3f2e2b;
+    margin-left: 30px;
+    padding: 10px;
+}
+
+/* Header **/
+header{
+    background:#82363A;
+    color:#bdbcb0;
+    padding-top:30px;
+    min-height:70px;
+    border-bottom:#020105 10px solid;
+  }
+  
+  header a{
+    color:cornsilk;
+    text-decoration:inherit;
+    text-transform:uppercase ;
+    font-size:auto;
+  }
+  
+  header li{
+    float:right;
+    display: inline-block;
+    padding: 15px;
+  }
+  
+  header #branding{
+    float:left;
+  }
+  
+  header #branding h1{
+    margin: 5px;
+    font-size: 35px;
+  }
+  
+  header nav{
+    float:right;
+    margin-top:18px;
+  }
+  
+  header .highlight, header .current a{
+    color: #200f10;
+    font-weight: 20px;
+    
+  }
+  
+  header a:hover{
+    color:#878697;
+    font-weight:20px;
+  }
+  
+  /* Showcase */
+  #showcase{
+    
+    background-image:url("https://github.com/teetran04/wedsite/blob/main/Ma%20nguon%20cac%20bai%20tap%20(1)/Ma%20nguon%20cac%20bai%20tap/EX06/img/showcase.jpg?raw=true");
+    color:#f4f4f4;
+    padding-top:100px;
+    min-height:300px;
+    
+  }
+  
+  #showcase h1{
+    text-align: center;
+    font-size: 40px;
+  
+  }
+  
+  #showcase p{
+    text-align: center;
+    font-size: x-large;
+  }
+
+/* Newsletter */
+#newsletter{
+    padding-top: 50px;
+    min-height: 40px;
+    background-color: #47190f;
+}
+
+#newsletter h1{
+    margin-top: -20px;
+    color: rgb(231, 231, 231);
+}
+
+#newsletter form {
+    float: right;
+    margin-top: -55px;
+    
+}
+
+#newsletter input[type="email"]{
+height: 30px;
+width: 250px;
+    
+}
+
+
+footer{
+    padding:20px;
+    margin-top:20px;
+    color:#ffffff;
+    background-color:#82363A;
+    text-align: center;
+  }

@@ -69,38 +69,6 @@ text: align 1px;
 text-align: center;
 }
 
-
-}
-
-#newsletter form input[type="email"], .quote input, .quote textarea{
-color: gold;   
-}
-
-  
-
-}
-
-header #branding h1{
-  
-
-}
-
-header nav{
- 
-
-}
-
-header .highlight, header .current a{
-  
-
-}
-
-header a:hover{
-  
-
-}
-
-
 footer{
   
  position: relative;
@@ -113,5 +81,5 @@ footer{
 }
 
 #newsletter form input[type="email"], .quote input, .quote textarea{
-    
+ color: gold;    
   }

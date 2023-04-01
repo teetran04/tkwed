@@ -1,92 +1,74 @@
 body{
-    background:#519D90;
-  color:black ;
-  padding: 6px;
-  margin:-1px ;
-
-
-}
-
-/* Global */
-.container{
-    
-        
-  width:80%;
-  margin:auto;
-  overflow:hidden;
-}
-
-
-
-ul{
-    margin:0;
-  padding:0;
-
-}
-
-/* Header **/
-header{
-    padding: 20px 70px 5px 1px;
-    margin: -8px;
-    background-color:#82363A;
-    border-bottom-style: solid;
-    border-color: #bdbcb0
-
-}
-
-header a{
-    color: cornsilk;
-    text-decoration: none;
-    font-size:25px;
-
-}
-
-header li{
-    display:inline-block;
-    padding-right: 24px;
-
-}
-
-header #branding{
-    color: #200f10;
-
-}
-
-header #branding h1{
+    font: 15px/1.5 Arial, Helvetica,sans-serif;
+      padding:0;
+      margin:0;
+      background-color:#519D90;
+  }
+  
+  /* Global */
+  .container{
+     margin-left: 50px;
+  
+  }
+  
+  ul{
+   margin-top: -10px;
+  
+  }
+  
+  /* Header **/
+  header{
+    background:#82363A;
+    color:#bdbcb0;
+    padding-top:30px;
+    min-height:70px;
+    border-bottom:#020105 10px solid;
+  }
+  
+  header a{
+    color:cornsilk;
+    text-decoration:inherit;
+    text-transform:uppercase ;
+    font-size:auto;
+  }
+  
+  header li{
+    float:right;
+    display: inline-block;
+    padding: 15px;
+  }
+  
+  header #branding{
+    float:left;
+  }
+  
+  header #branding h1{
+    margin: 5px;
+    font-size: 35px;
+  }
+  
+  header nav{
+    float:right;
+    margin-top:18px;
+  }
+  
+  header .highlight, header .current a{
     color:#200f10;
-
-}
-
-header nav{
-    margin-top:-70px;
-    position:initial;
-    transform: translateX(0);
-    opacity:1;
-    background-color:transparent;
-    display:flex;
-    justify-content: flex-end;
-    align-items:center;
+    font-weight: 20px;
     
-
-}
-
-header .highlight, header .current a{
-    color: #200f10;
-
-}
-
-header a:hover{
-    color:#878697;
+  }
+  
+  header a:hover{
+    color: #878697;
     font-weight:20px;
-
-}
-
-footer{
+  }
+  
+  footer{
     padding:20px;
-    margin-top:20px;
-    color:#ffffff;
-    background-color:#82363A;
-    text-align: center;
-
-}
-
+      margin-top:20px;
+      color:#ffffff;
+      background-color:#82363A;
+      text-align: center;
+      text-align: center;
+  
+  

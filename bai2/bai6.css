@@ -1,0 +1,97 @@
+body{
+    font: 15px/1.5 Arial, Helvetica,sans-serif;
+    padding:0;
+    margin:0;
+    background-color:#519D90;
+  }
+/* Global */
+.container{
+    margin-top: 0;
+    margin-bottom: 0px;
+    margin-right: 200px;
+    margin-left: 80px;
+
+}
+
+ul{
+    margin-left: 70px;
+}
+  
+  /* Header **/
+  header{
+    background:#82363A;
+    color:#bdbcb0;
+    padding-top:40px;
+    min-height:80px;
+    border-bottom:#020105 10px solid;
+  }
+  
+  header a{
+    color: cornsilk;
+    text-decoration:solid;
+    text-transform:uppercase; 
+    font-size: 17px;
+  }
+  
+  header li{
+    display:inline-block;
+    padding-right: 20px;
+    text-align: right;
+    float:none;
+  }
+  
+  header #branding{
+    float: none;
+  }
+  
+  header #branding h1{
+    margin: 0;
+  }
+  
+  header nav{
+    float: right;
+    margin-top:-40px;
+  }
+  
+  header .highlight, header .current a{
+    color: #200f10;
+    font-weight:0;
+  }
+  
+  header a:hover{
+    color: #878697;
+    font-weight:0;
+  }
+  
+  /* Showcase */
+#showcase{
+    background-image:url("https://github.com/teetran04/wedsite/blob/main/Ma%20nguon%20cac%20bai%20tap%20(1)/Ma%20nguon%20cac%20bai%20tap/EX06/img/showcase.jpg?raw=true");
+    padding: 100px ;
+}
+
+#showcase h1{
+   font-size: 50px;
+   color: #f4f4f4;
+   text-align: center;
+}
+
+#showcase p{
+  font-size:12px;
+  color: #f4f4f4;
+  text-align: center;
+}
+  
+  footer{
+    padding:20px;
+    margin-top:20px;
+    color:#ffffff;
+    background-color:#82363A;
+    text-align: center;
+  }
+  
+  
+  
+    #newsletter form input[type="email"], .quote input, .quote textarea{
+      width: 25%;
+      margin-bottom: 5px;
+    }

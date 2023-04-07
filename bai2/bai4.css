@@ -69,16 +69,7 @@ text: align 1px;
 text-align: center;
 }
 
-footer{
-  
- position: relative;
- padding:20px;
- margin-top:20px;
- color:#ffffff;
- background-color:#82363A;
- text-align: center;
-   
-}
+
 
 #newsletter form input[type="email"], .quote input, .quote textarea{
  color: gold;    

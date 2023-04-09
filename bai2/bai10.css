@@ -1,0 +1,205 @@
+body{
+    font: 15px/1.5 Arial, Helvetica,sans-serif;
+    padding:0;
+    margin:0;
+    background-color:#519D90;
+}
+
+/* Global */
+.container{
+    color: rgb(83, 48, 48);
+    font-style: oblique;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
+    overflow: hidden;
+}
+
+ul{
+    margin-top: 0px;
+    padding: 0; 
+}
+
+.button_1{
+    height: 35px;
+    width: 90px;
+    background-color: #c76f46b6;
+    color: #080101;
+}
+
+
+.dark{
+    background-color: #b8a5a2;
+    margin-left: 30px;
+    padding: 10px;
+}
+
+
+/* Header **/
+header{
+    background:#82363A;
+    color:#bdbcb0;
+    padding-top:30px;
+    min-height:70px;
+    border-bottom:#020105 10px solid;
+  }
+
+  header a{
+    color:cornsilk;
+    text-decoration:inherit;
+    text-transform:uppercase ;
+    font-size:auto;
+  }
+
+header li{
+    float:right;
+    display: inline-block;
+    padding: 15px;
+  }
+
+
+header #branding{
+    float:left;
+}
+
+header #branding h1{
+    margin: 5px;
+    font-size: 35px;
+}
+
+header nav{
+    float:right;
+    margin-top:18px;
+}
+
+header .highlight, header .current a{
+    color: #a89899;
+    font-weight: 20px;
+}
+
+header a:hover{
+    color:#878697;
+    font-weight:20px;
+}
+
+/* Showcase */
+#showcase{
+  
+    background-image:url("https://github.com/teetran04/wedsite/blob/main/Ma%20nguon%20cac%20bai%20tap%20(1)/Ma%20nguon%20cac%20bai%20tap/EX06/img/showcase.jpg?raw=true");
+    color:#f4f4f4;
+    padding-top:100px;
+    min-height:300px;
+}
+
+#showcase h1{
+    text-align: center;
+    color: aliceblue;
+    padding-top:100px;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+#showcase p{
+    text-align: center;
+    color: cornsilk;
+    padding-bottom:-50px;
+    font-size: 20px;
+  }
+
+/* Newsletter */
+#newsletter{
+   
+  margin-top: -20px;
+  border-radius: 4px;
+  border-top: 4px solid rgb(205, 195, 195);
+  padding: 15px;
+  background-color: #b29e9a;
+}
+
+#newsletter h1{
+    margin-bottom: -40px;
+    height: 20%;
+    float: left;
+}
+    color: rgb(231, 231, 231); { 
+    
+}
+
+#newsletter form {
+    float: right;
+    margin-top: 15px;
+    display:flex;
+    justify-content:flex-end;
+    
+}
+
+#newsletter input[type="email"]{
+    border-radius: 12px;
+    background-color:rgb(243, 234, 234);
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+
+/* Boxes */
+#boxes {
+    margin-top: 20px;
+      
+}
+
+#boxes .box{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+    color: rgb(18, 110, 110);
+    text-align: center; 
+}
+
+#boxes .box img{
+    border-radius: 50%;
+    width:90px ;
+}
+
+/* Sidebar */
+aside#sidebar{
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+    
+ }
+ 
+ aside#sidebar .quote input, aside#sidebar .quote textarea{
+     width: 50%;
+     padding: 5px;
+ }
+ 
+ /* Main-col */
+ article#main-col{
+     float: left;
+     width: 65%;
+ }
+     
+ 
+
+/* Services */
+ul#services li{
+    list-style: none;
+    padding: 20px;
+    border: rgb(54, 71, 54) solid 1px;
+    margin-bottom: 5px;
+    background: rgb(160, 159, 159);
+  }
+
+footer{
+   
+        padding:20px;
+      margin-top:20px;
+      color:#ffffff;
+      background-color:#82363A;
+      text-align: center;
+    
+
+}
+
